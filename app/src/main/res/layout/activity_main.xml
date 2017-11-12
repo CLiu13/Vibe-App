@@ -8,6 +8,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.hangr.MainActivity">
 
+    <!--
+    - android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+    - android:textStyle="bold"
+    - android:layout_below="@+id/login"
+    -->
+
     <TextView
         android:id="@+id/login"
         android:layout_width="wrap_content"

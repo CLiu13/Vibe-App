@@ -11,23 +11,26 @@
 
     <EditText
         android:id="@+id/createUsername"
-        android:text="@string/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/createAccountTextView"/>
+        android:layout_below="@+id/createAccountTextView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/username" />
 
     <EditText
         android:id="@+id/createPassword"
-        android:text="@string/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/createUsername" />
+        android:layout_alignStart="@+id/createUsername"
+        android:layout_below="@+id/createUsername"
+        android:text="@string/password" />
 
     <Button
         android:id="@+id/createSubmit"
-        android:text="@string/create"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/createPassword"/>
+        android:layout_below="@+id/createPassword"
+        android:layout_toEndOf="@+id/createAccountTextView"
+        android:text="@string/create" />
 
 </RelativeLayout>
