@@ -20,6 +20,10 @@ class ViewPeople : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.view_people)
 
+        toggleButton.text = "Offline"
+        toggleButton.textOn = "Online"
+        toggleButton.textOff = "Offline"
+
         //startActivity<MoreInformation>("id" to , "name" to "Test")
 
         ref.addValueEventListener(object: ValueEventListener {

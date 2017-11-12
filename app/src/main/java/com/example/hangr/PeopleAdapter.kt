@@ -31,14 +31,14 @@ class PeopleAdapter(val mCtx: Context, val layoutResId: Int, val peopleList: Lis
         val textViewOnline = view.findViewById<TextView>(R.id.textViewOnline)
 
         val people = peopleList[position] //This connects to the People class from the ArrayAdapter.
-        textViewName.text = "${people.fbName} \n ${people.fbEmail}"; //This is the text that shows in the actual TextView from the database.
+        textViewName.text = "${people.fbName}"; //This is the text that shows in the actual TextView from the database.
         if (people.fbOnline) {
             textViewOnline.text = "✔"
         } else {
             textViewOnline.text = "❌"
         }
 
-        val buttonUpdate = view.findViewById<Button>(R.id.buttonUpdate)
+//        val buttonUpdate = view.findViewById<Button>(R.id.buttonUpdate)
 
         textViewName.setOnClickListener() {
 
@@ -48,9 +48,9 @@ class PeopleAdapter(val mCtx: Context, val layoutResId: Int, val peopleList: Lis
 
         }
 
-        buttonUpdate.setOnClickListener() {
-            showUpdateDialog(people) // This is your people variable that has the position of the list element.
-        }
+//        buttonUpdate.setOnClickListener() {
+//            showUpdateDialog(people) // This is your people variable that has the position of the list element.
+//        }
 
         return view;
     }

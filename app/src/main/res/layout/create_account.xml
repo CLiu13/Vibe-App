@@ -32,7 +32,8 @@
         android:layout_alignStart="@+id/createUsername"
         android:layout_marginBottom="33dp"
         android:hint="@string/password"
-        android:minWidth="300dp" />
+        android:minWidth="300dp"
+        android:inputType="textPassword"/>
 
     <Button
         android:id="@+id/createSubmit"

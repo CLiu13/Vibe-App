@@ -20,11 +20,4 @@
         android:text="c"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
 
-    <Button
-        android:id="@+id/buttonUpdate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Update"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textStyle="bold" />
 </LinearLayout>

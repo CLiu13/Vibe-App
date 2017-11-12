@@ -18,7 +18,8 @@
         </activity>
 
         <activity android:name=".ViewPeople" />
-        <activity android:name=".CreateAccount" />
+        <activity android:name=".CreateAccount"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
