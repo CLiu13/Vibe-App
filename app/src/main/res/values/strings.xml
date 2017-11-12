@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Location</string>
+    <string name="app_name">Location 📍</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
-    <string name="create">Create an Account</string>
+    <string name="create">Create an Account 📍</string>
 </resources>

@@ -5,32 +5,42 @@
 
     <TextView
         android:id="@+id/createAccountTextView"
-        android:text="@string/create"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/createUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text="@string/create"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/createUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/createAccountTextView"
+        android:layout_above="@+id/createPassword"
         android:layout_centerHorizontal="true"
-        android:text="@string/username" />
+        android:layout_marginBottom="33dp"
+        android:hint="@string/username"
+        android:minWidth="300dp" />
 
     <EditText
         android:id="@+id/createPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/createSubmit"
         android:layout_alignStart="@+id/createUsername"
-        android:layout_below="@+id/createUsername"
-        android:text="@string/password" />
+        android:layout_marginBottom="33dp"
+        android:hint="@string/password"
+        android:minWidth="300dp" />
 
     <Button
         android:id="@+id/createSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/createPassword"
-        android:layout_toEndOf="@+id/createAccountTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp"
         android:text="@string/create" />
 
 </RelativeLayout>

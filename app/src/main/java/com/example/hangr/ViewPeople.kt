@@ -22,13 +22,6 @@ class ViewPeople : AppCompatActivity() {
 
         //startActivity<MoreInformation>("id" to , "name" to "Test")
 
-        toggleButton.setOnClickListener {
-            if (toggleButton.isChecked) {
-                toggleButton.isChecked = false
-
-            }
-        }
-
         ref.addValueEventListener(object: ValueEventListener {
             //Once you get into these functions, p0 is your new variable that you're working with.
             override fun onCancelled(p0: DatabaseError?) {
