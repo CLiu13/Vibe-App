@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "390542952719",
+    "firebase_url": "https://hangr-18d2a.firebaseio.com",
+    "project_id": "hangr-18d2a",
+    "storage_bucket": "hangr-18d2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390542952719:android:6e1048f249aeec51",
+        "android_client_info": {
+          "package_name": "com.example.hangr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390542952719-kaa4hfn0dp9dg44uqna2m0ghusgtc0u2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hangr",
+            "certificate_hash": "ff97828962d9ec63b768c63209a43d673f65b47a"
+          }
+        },
+        {
+          "client_id": "390542952719-d8lkpplb591letep6ldshd3bsllkkll4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_U-rqzcR1CA90g2f4eosaQRYZ2Frk6Yk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390542952719-d8lkpplb591letep6ldshd3bsllkkll4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
