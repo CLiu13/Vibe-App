@@ -28,13 +28,14 @@ class PeopleAdapter(val mCtx: Context, val layoutResId: Int, val peopleList: Lis
         val view : View = layoutInflater.inflate(layoutResId, null) //The view inflates the inflater.
         val textViewName = view.findViewById<TextView>(R.id.textViewName);
         val toggleButton = view.findViewById<ToggleButton>(R.id.toggleButton)
+        val textViewOnline = view.findViewById<TextView>(R.id.textViewOnline)
 
         val people = peopleList[position] //This connects to the People class from the ArrayAdapter.
         textViewName.text = "${people.fbName} \n ${people.fbEmail}"; //This is the text that shows in the actual TextView from the database.
         if (people.fbOnline) {
-            toggleButton.isChecked = true
+            textViewOnline.text = "✔"
         } else {
-            toggleButton.isChecked = false
+            textViewOnline.text = "❌"
         }
 
         val buttonUpdate = view.findViewById<Button>(R.id.buttonUpdate)
